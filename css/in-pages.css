@@ -1,0 +1,65 @@
+:root {
+    --main-font: 'Merienda', cursive;
+    --second-font: 'Kite One', sans-serif;
+}
+/* Start About Style */
+body {
+    background-color: bisque;
+    padding-top: 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.path {
+    margin-top: 10px;
+}
+.about-intro {
+    padding: 10px;
+}
+.about-intro .container h1 {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.about-intro .container p {
+    font-family: var(--main-font);
+}
+.about-intro .container .img-responsive {
+    display: inline-block;
+}
+.priorities {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.priorities .container h2 {
+    font-family: var(--second-font);
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+.priorities .container .h2 {
+    text-transform: capitalize;
+    font-family: var(--main-font);
+}
+.priorities .container .feat {
+    margin-bottom: 50px;
+}
+.boss {
+    padding-top: 30px;
+}
+.boss .container .row .lead {
+    line-height: 2.5;
+    font-family: var(--second-font);
+}
+/* End About Style */
+
+/* Start FAQ Style */
+.faq-intro .container h1 {
+    text-transform: capitalize;
+    font-family: var(--second-font);
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+/* End FAQ Style */

@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+    .navbar-form {
+        margin-top: 0;
+    }
+    .navbar-form .btn {
+        display: block;
+        margin: auto;
+    }
+    .navbar-nav > li > a {
+        padding: 10px;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height: none;
+    }
+}
